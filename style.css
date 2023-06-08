@@ -1,0 +1,473 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+
+all_container{
+    background-color: #E5E5CB;
+}
+
+html ::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+html ::-webkit-scrollbar-thumb{
+    background: #D5CEA3;
+    border-radius: 10px;
+}
+
+html ::-webkit-scrollbar{
+    width: 10xp;
+}
+
+#navbar{
+    background-color: #D5CEA3;
+}
+
+.navbar-nav{
+    margin-left: 50xp;
+}
+
+.nav-item .nav-link{
+    color: black;
+    margin-left: 20xp;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.nav-item .nav-link:hover{
+    background: #f7f5f2;
+    border-radius: 5px;
+    color: black;
+  }
+
+#logo img{
+    border-radius: 15px;
+    width: 150xp;
+    margin-left: 55xp;
+}
+
+#navbar button{
+    background: black;
+    color: white;
+    border: 1xp solid white;
+}
+
+#home{
+    width: 100%;
+    height: 90vh;
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(./coffee_image/ana.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 80%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.workspace{
+    padding-top: 210px;
+    margin-left: 56px;
+  }
+.workspace h3{
+    font-size: 50px;
+    color: #1A120B;
+  }
+.workspace p{
+    margin-top: 10px;
+    color: #3C2A21;
+  }
+
+#btn{
+    width: 150xp;
+    height: 40xp;
+    margin-top: 20px;
+    background: white;
+    border-radius: 5xp;
+    font-weight: bold;
+    border: none;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+
+#btn{
+    width: 150px;
+    height: 36px;
+    margin-top: 20px;
+    background: white;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    transition: 0.5s ease;
+    cursor: pointer;
+  }
+  #btn:hover{
+    background: #D5CEA3;
+    color: white;
+  }
+
+  #about{
+    width: 100%;
+    height: 100vh;
+    background: #FBF8F1;
+
+    font-family: 'Roboto', sans-serif;
+  }
+  #about .container{
+    padding-top: 70px;
+  }
+  .heading{
+    text-align: center;
+    margin-bottom: 50px;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .heading span{
+    color: #b2744c;
+}
+
+#about-btn{
+    width: 150xp;
+    height: 40xp;
+    margin-top: 20px;
+    background: white;
+    border-radius: 5xp;
+    font-weight: bold;
+    border: none;
+    color: aliceblue;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+
+#about-btn{
+    width: 150px;
+    height: 36px;
+    margin-top: 20px;
+    background: black;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+ #about-btn:hover{
+    background: #D5CEA3;
+    color: black;
+}
+
+@media screen and (max-width:982xp){
+    #about p{
+        font-size: 8xp;
+    }
+    
+}
+
+@media screen and (max-widht:766xp){
+    #about p{
+        font-size: 15xp;
+    }
+    #about{
+        height: 120vh;
+    }
+    
+}
+
+/* Specialty Coffee */
+
+.specialty-coffees{
+    width: 100%;
+    height: 90vh;
+    background: #FBF8F1;
+    font-family: 'Roboto', sans-serif;
+}
+
+.heading2{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.heading2 span{
+    color: #b2744c;
+}
+
+  .specialty-coffees .container{
+    margin-top: 30px;
+}
+
+  .specialty-coffees .card{
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+  .specialty-coffees .card img{
+    border-radius: 10px;
+}
+
+ .specialty-coffees .card h3{
+    text-align: center;
+    padding-top: 78px;
+    color: white;
+}
+
+  .specialty-coffees .card:hover{
+    transform: translateY(-10px);
+}
+
+/* Specialty Coffee */
+
+
+/*menu*/
+.menu{
+  width: 100%;
+  background: #f7f5f2;
+  font-family: 'Roboto', sans-serif;
+}
+.heading3{
+  text-align: center;
+  font-size: 30px;
+  color: #b2744c;
+  font-weight: bold;
+  border-bottom: 2px solid #b2744c;
+}
+#container2{
+  margin-top: 20px;
+}
+.menu .card{
+  background: white;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.star i{
+  color: #b2744c;
+}
+.menu h3{
+  color: #b2744c;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 25px;
+}
+.menu p{
+  font-size: 16px;
+  color: #b2744c;
+  padding-top: 10px;
+}
+.menu p span{
+  float: right;
+  cursor: pointer;
+}
+
+/*menu*/
+
+
+/*art*/
+#art{
+  width: 100%;
+  height: 100vh;
+  background: #FBF8F1;
+
+  font-family: 'Roboto', sans-serif;
+}
+#art .container{
+  padding-top: 70px;
+}
+.heading4{
+  text-align: center;
+  margin-bottom: 50px;
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+}
+.heading4 span{
+  color: #b2744c;
+}
+
+#art .card img{
+  border-radius: 10px;
+  width: auto;
+  height: 70vh;
+}
+
+#art h3{
+  color: #1A120B;
+  text-align: left;
+}
+
+#art p{
+  color: #1A120B;
+}
+/*art*/
+
+
+.communication{
+  width: 100%;
+  height: 100vh;
+  background: #f7f5f2;
+  padding-top: 70px;
+}
+
+
+.communication .container{
+  width: 100%;
+  height: 80vh;
+  /*background: white;*/
+/*  background: linear-gradient(90deg, white 80%, #b2744c 20%); */
+  border-radius: 10px;
+}
+
+
+.heading6{
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 70px;
+}
+
+
+.heading6 span{
+  color: #b2744c;
+}
+
+
+.communication p{
+  font-weight: bold;
+  font-size: 13px;
+  color: black;
+}
+
+.communication input{
+  width: 360px;
+  border: none;
+  border-bottom: 1px solid;
+}
+
+
+#communication-btn{
+  width: 150xp;
+  height: 40xp;
+  margin-top: 20px;
+  background: white;
+  border-radius: 5xp;
+  font-weight: bold;
+  border: none;
+  color: aliceblue;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+
+#communication-btn{
+  width: 200px;
+  height: 44px;
+  margin-top: 20px;
+  background: #3C2A21;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+#communication-btn:hover{
+  background: #D5CEA3;
+  color: black;
+}
+
+
+#col{
+  width: 40%;
+  height: 56vh;
+  /*background: #3C2A21;*/
+  background: #f7f5f2;
+  margin-top: 78px;
+}
+
+
+#communication h1{
+  /*color: white;*/
+  color: #b2744c;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+#communication a{
+  color:#3C2A21;
+  text-decoration: none;
+}
+
+#commucation p{
+  color: #D5CEA3;
+}
+
+.communication #col p{
+  font-size: 15px;
+  /*color: white;*/
+  color: #3C2A21;
+  margin-left: 13px;
+  padding-top: 30px;
+}
+
+@media screen and (max-width:766px){
+  .contact .container{
+  background: white;
+  }
+  #col{
+    width: 100%;
+    background: #b2744c;
+  }
+  .communication{
+    height: 150vh;
+  }
+}
+
+@media screen and (max-width:400px){
+  .communication input{
+    width: 250px;
+  }
+  
+}
+
+#footer{
+  width: 100%;
+  background: #D5CEA3;
+  margin-top: 50px;
+}
+.footer-logo img{
+  width: 180px;
+  border-radius: 10px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+#footer .socail-links i{
+  font-size: 17px;
+  margin-left: 10px;
+  margin-top: 30px;
+  padding: 10px;
+  background: black;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.credite{
+  color: white;
+  margin-top: 20px;
+}
+.credite{
+  text-shadow: 0px 0px 1px black;
+}
+.credite a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.credite a span{
+  color: black;
+}
+.copyright span{
+  color: black;
+}
