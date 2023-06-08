@@ -5,7 +5,7 @@
     font-family: 'Merriweather', serif;
 }
 
-all_container{
+.all_container{
     background-color: #E5E5CB;
 }
 
@@ -315,8 +315,6 @@ html ::-webkit-scrollbar{
 .communication .container{
   width: 100%;
   height: 80vh;
-  /*background: white;*/
-/*  background: linear-gradient(90deg, white 80%, #b2744c 20%); */
   border-radius: 10px;
 }
 
@@ -381,14 +379,12 @@ html ::-webkit-scrollbar{
 #col{
   width: 40%;
   height: 56vh;
-  /*background: #3C2A21;*/
   background: #f7f5f2;
   margin-top: 78px;
 }
 
 
 #communication h1{
-  /*color: white;*/
   color: #b2744c;
   font-size: 25px;
   margin-top: 10px;
@@ -406,7 +402,6 @@ html ::-webkit-scrollbar{
 
 .communication #col p{
   font-size: 15px;
-  /*color: white;*/
   color: #3C2A21;
   margin-left: 13px;
   padding-top: 30px;
