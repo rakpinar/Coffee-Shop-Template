@@ -48,13 +48,6 @@ html ::-webkit-scrollbar{
     width: 150xp;
     margin-left: 55xp;
 }
-
-#navbar button{
-    background: black;
-    color: white;
-    border: 1xp solid white;
-}
-
 #home{
     width: 100%;
     height: 90vh;
@@ -226,7 +219,7 @@ html ::-webkit-scrollbar{
 /*menu*/
 .menu{
   width: 100%;
-  background: #f7f5f2;
+  background: #FBF8F1;
   font-family: 'Roboto', sans-serif;
 }
 .heading3{
@@ -251,6 +244,9 @@ html ::-webkit-scrollbar{
   text-align: center;
   margin-top: 10px;
   font-size: 25px;
+}
+.menu hr{
+  color: #b2744c;
 }
 .menu p{
   font-size: 16px;
@@ -304,15 +300,15 @@ html ::-webkit-scrollbar{
 /*art*/
 
 
-.communication{
+.contact{
   width: 100%;
   height: 100vh;
-  background: #f7f5f2;
+  background: #FBF8F1;
   padding-top: 70px;
 }
 
 
-.communication .container{
+.contact .container{
   width: 100%;
   height: 80vh;
   border-radius: 10px;
@@ -331,20 +327,20 @@ html ::-webkit-scrollbar{
 }
 
 
-.communication p{
+.contact p{
   font-weight: bold;
   font-size: 13px;
   color: black;
 }
 
-.communication input{
+.contact input{
   width: 360px;
   border: none;
   border-bottom: 1px solid;
 }
 
 
-#communication-btn{
+#contact-btn{
   width: 150xp;
   height: 40xp;
   margin-top: 20px;
@@ -358,7 +354,7 @@ html ::-webkit-scrollbar{
 }
 
 
-#communication-btn{
+#contact-btn{
   width: 200px;
   height: 44px;
   margin-top: 20px;
@@ -370,7 +366,7 @@ html ::-webkit-scrollbar{
   cursor: pointer;
 }
 
-#communication-btn:hover{
+#contact-btn:hover{
   background: #D5CEA3;
   color: black;
 }
@@ -379,28 +375,28 @@ html ::-webkit-scrollbar{
 #col{
   width: 40%;
   height: 56vh;
-  background: #f7f5f2;
+  background: #FBF8F1;
   margin-top: 78px;
 }
 
 
-#communication h1{
+#contact h1{
   color: #b2744c;
   font-size: 25px;
   margin-top: 10px;
   margin-left: 10px;
 }
 
-#communication a{
+#contact a{
   color:#3C2A21;
   text-decoration: none;
 }
 
-#commucation p{
-  color: #D5CEA3;
+#contact p{
+  color: #1A120B;
 }
 
-.communication #col p{
+.contact #col p{
   font-size: 15px;
   color: #3C2A21;
   margin-left: 13px;
@@ -415,13 +411,13 @@ html ::-webkit-scrollbar{
     width: 100%;
     background: #b2744c;
   }
-  .communication{
+  .contact{
     height: 150vh;
   }
 }
 
 @media screen and (max-width:400px){
-  .communication input{
+  .contact input{
     width: 250px;
   }
   
@@ -432,12 +428,14 @@ html ::-webkit-scrollbar{
   background: #D5CEA3;
   margin-top: 50px;
 }
+
 .footer-logo img{
   width: 180px;
   border-radius: 10px;
   margin-top: 30px;
   cursor: pointer;
 }
+
 #footer .socail-links i{
   font-size: 17px;
   margin-left: 10px;
@@ -448,21 +446,28 @@ html ::-webkit-scrollbar{
   border-radius: 10px;
   cursor: pointer;
 }
+
 .credite{
   color: white;
   margin-top: 20px;
 }
+
+
 .credite{
   text-shadow: 0px 0px 1px black;
 }
+
+
 .credite a{
   text-decoration: none;
   color: black;
   font-weight: bold;
 }
+
 .credite a span{
   color: black;
 }
+
 .copyright span{
   color: black;
 }
